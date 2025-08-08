@@ -1,33 +1,15 @@
 package 연습;
 
-public class Dohwa {
+public abstract class Dohwa {
 
-        Dohwa(String name){
+    public void ess(){
+        System.out.println("aa");
+    }
 
-            System.out.println(name);
-        }
+    public void ess2(){
+        System.out.println("bb");
+    }
 
-
-        String number(String a, String b){
-
-            String phon ;
-            if(a == "폰"){
-                phon = "1122" ;
-                System.out.println(phon);
-            } else {
-                phon = "3148" ;
-                System.out.println(phon);
-            }
-
-            b = "넘버";
-            System.out.println(b);
-
-            String msg = phon + b ;
-
-            return msg;
-        }
-
-
-
+    public abstract void ess3();
 
 }
